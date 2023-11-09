@@ -1,0 +1,71 @@
+/* Hung Long Ong - April 09, 2023 - ID: 991689997 */
+#books {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f7f7f7;
+    border: 2px solid #ccc;
+    text-align: center;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #adffad;
+    color: #ff0000;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+body {
+    background-color: #f1f6ff;
+    font-family: Arial, sans-serif;
+    color: #333;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #0066cc;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+}
+
+#tableForm {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+input[type=text], input[type=submit] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type=submit]:hover {
+    background-color: #004f99;
+}

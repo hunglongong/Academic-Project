@@ -1,0 +1,124 @@
+/* Hung Long Ong - March 25, 2023 - ID: 991689997 */
+/* CSS for LL Coffee's Orders form */
+
+/*basic css for index.php page*/
+.indexPage {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    background-image: url('../coffee-background.jpg');
+    background-repeat: repeat;
+    color: #fff;
+}
+/*background color for order.php page*/
+.order {
+    background-color: #fce3a7;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*basic design and layout for the form section*/
+form {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #e1d4fc;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border: 5px solid #4b2a00;;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+/*input fields and button*/
+input[type="number"],
+button {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #6b4f30;
+}
+
+button {
+    background-color: #6b4f30;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #8d664b;
+}
+
+/* Coffee cup images */
+
+.small {
+    background-image: url('../hero_cup.png');
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin-right: 5px;
+}
+
+.medium {
+    background-image: url('../hero_cup.png');
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-right: 5px;
+}
+
+.large {
+    background-image: url('../hero_cup.png');
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    margin-right: 5px;
+}
+
+.extra-large {
+    background-image: url('../hero_cup.png');
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin-right: 5px;
+}
+
+/* Cream and sugar packet images */
+.cream-image,
+.sugar-image {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-right: 5px;
+}
+
+.cream-image {
+    background-image: url('../cream.png');
+}
+
+.sugar-image {
+    background-image: url('../sugar.png');
+}
+
+.coffee-section, .cream-section, .sugar-section {
+    display: inline-block;
+    background-color: #e1d4fc;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#labelFormHeader{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Arial", sans-serif;
+    color: #5c2b00;
+}
+
